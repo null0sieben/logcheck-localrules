@@ -1,0 +1,3 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ CRON\[[[:digit:]]+\]: message repeated [[:xdigit:]] times: \[ \(barman\) CMD \(\[ -x /usr/bin/barman ] && /usr/bin/barman -q cron\)\]
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ CRON\[[[:digit:]]+\]: pam_limits\(cron:session\): unknown limit type+[[:space:]]+[[:punct:]]{3}$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ CRON\[[[:digit:]]+\]: message repeated [[:xdigit:]] times: \[ \(root\) CMD \(if \[ -x /etc/munin/plugins/apt_all?

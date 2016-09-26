@@ -1,0 +1,8 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: message repeated [0-9] times: \[ Connection closed by [:.[:xdigit:]]+ \[preauth\]\]?
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: subsystem request for sftp by user [^[:space:]]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: Read from socket failed: Connection reset by peer \[preauth\]$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: message repeated [0-9] times: \[ Received disconnect from [:.[:xdigit:]]+ 11: disconnected by user]
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Accepted publickey for scc from [:.[:xdigit:]]+ port [0-9]{5} ssh2: RSA
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Accepted publickey for barman from [:.[:xdigit:]]+ port [0-9]{5} ssh2: RSA
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Accepted publickey for postgres from [:.[:xdigit:]]+ port [0-9]{5} ssh2: RSA
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Accepted publickey for git

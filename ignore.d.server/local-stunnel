@@ -1,0 +1,3 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ stunnel: LOG3\[[0-9].*:[0-9]+\]: transfer: s_poll_wait: TIMEOUTclose exceeded: closing$
+^\w{3} [ :0-9]{11}+  stunnel: last message repeated
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ stunnel: LOG5\[main\]: Log file reopened
